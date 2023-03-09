@@ -14,5 +14,5 @@ sudo -u $USER echo "deb http://debian.sur5r.net/i3/ $(grep '^DISTRIB_CODENAME=' 
 apt update
 apt install i3 -y
 
-#TODO Restart window manager and login after everything is set up
+#TODO Restart window manager and login after everything is set up https://www.reddit.com/r/i3wm/comments/5rnhtf/how_to_launch_i3/
 
