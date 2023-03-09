@@ -12,4 +12,7 @@ sudo -u $USER /usr/lib/apt/apt-helper download-file https://debian.sur5r.net/i3/
 apt install ./keyring.deb
 sudo -u $USER echo "deb http://debian.sur5r.net/i3/ $(grep '^DISTRIB_CODENAME=' /etc/lsb-release | cut -f2 -d=) universe" | tee /etc/apt/sources.list.d/sur5r-i3.list
 apt update
-apt install i3
+apt install i3 -y
+
+#TODO Restart window manager and login after everything is set up
+
